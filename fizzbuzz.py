@@ -19,4 +19,8 @@ def fizz_buzz(fizz, buzz, limit):
             print(i)
 
 
-fizz_buzz(3, 5, 100)
+def main():
+    fizz_buzz(3, 5, 100)
+
+if __name__ == "__main__":
+    main()
