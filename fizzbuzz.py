@@ -5,7 +5,7 @@ def fizz_buzz(fizz, buzz, limit):
         if iterator % divisor == 0:
             return True
 
-    for i in range(1, limit+1):
+    for i in range(0, limit):
         if divisible_by(i, fizz*buzz):
             print("FizzBuzz")
             
