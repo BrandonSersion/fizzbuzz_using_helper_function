@@ -19,7 +19,7 @@ def fizz_buzz(fizz, buzz, limit):
 
 
 def main():
-    print('\n'.join([*fizz_buzz(3, 5, 100)]))
+    print('\n'.join(fizz_buzz(3, 5, 100)))
     
 
 if __name__ == "__main__":
